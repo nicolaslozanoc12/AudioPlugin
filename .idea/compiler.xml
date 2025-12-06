@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="UI" />
+        <module name="PluginObtenerTexto" />
+        <module name="PluginPersistencia" />
+        <module name="PluginReproducirAudio" />
+        <module name="PluginBuscarCadena" />
+        <module name="PluginInterfaces" />
+        <module name="PluginListarAudios" />
+        <module name="PluginTextoAAudio" />
+        <module name="Core" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="PluginBuscarcadena" target="17" />
+      <module name="PluginCadenaBuscar" target="17" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
